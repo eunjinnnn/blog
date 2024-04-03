@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pmsk+$bi7+e)-ps7k+1=g30x=q!xvd0eq*!kq_fl_kgxu)9_bv
 DEBUG = True
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost']
 
 
 # Application definition
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko' #'en-us' 는 영어
 
 TIME_ZONE = 'Asia/Seoul'
 
