@@ -1,4 +1,4 @@
-.page-header {
+/* .page-header {
     background-color: #ff9400;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
@@ -8,13 +8,13 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-}
+} */
 
 .content {
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
+.post-title h1 {
     font-family: 'Lobster', cursive;
 }
 
@@ -45,6 +45,6 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 
-.navbar-nav{
+/* .navbar-nav{
     text-align: left;
-}
+} */
