@@ -1,0 +1,9 @@
+asgiref @ file:///home/conda/feedstock_root/build_artifacts/asgiref_1711268871457/work
+beautifulsoup4==4.12.3
+Django @ file:///home/conda/feedstock_root/build_artifacts/django_1709560514764/work
+django-bootstrap4==24.1
+setuptools==69.2.0
+soupsieve==2.5
+sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1681817562700/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1708904622550/work
+wheel==0.43.0
