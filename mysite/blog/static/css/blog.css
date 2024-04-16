@@ -14,13 +14,13 @@
     margin-left: 40px;
 }
 
-.post-title {
+.post-title h1 {
     font-family: 'Lobster', cursive;
 }
 
 .date {
     color: #828282;
-    font-size: xx-small;
+    font-size: small;
 }
 
 .save {
