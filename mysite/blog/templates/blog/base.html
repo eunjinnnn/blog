@@ -12,7 +12,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style = ' height: 8%;'>
           <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'post_list' %}" style="font-size: xx-large;">Start Bootstrap</a>
+            <a class="navbar-brand" href="{% url 'post_list' %}" >Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -20,16 +20,16 @@
               <ul class="nav justify-content-end">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" style="font-size: xx-large;">Home</a>
+                      <a class="nav-link active" aria-current="page" href="{% url 'post_new' %}" >Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" style="font-size: xx-large;">About</a>
+                      <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" style="font-size: xx-large;">Contact</a>
+                      <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="{% url 'post_new' %}" style="font-size: xx-large;">New</a>
+                      <a class="nav-link" href="{% url 'post_new' %}" >New</a>
                     </li>
                   </ul>
               </ul>
@@ -46,7 +46,7 @@
 
         <div class="content container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8" style="width: 80%;">
                 {% block content %}
                 {% endblock %}
                 </div>

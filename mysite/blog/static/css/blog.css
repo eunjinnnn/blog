@@ -9,10 +9,9 @@
     font-size: 36pt;
     text-decoration: none;
 } */
-.nav-link a {
-    font-size: xx-large;
-
-}
+.nav-link.active {
+    color: white;
+  }
 
 .content {
     margin-left: 40px;
